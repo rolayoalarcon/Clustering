@@ -5,7 +5,7 @@ library(factoextra)
 library(ctc)
 
 #Importamos datos
-BitMatrix <- read.table("blastp_qands_bitscore_dist_matrix_protfam1A17.txt", sep = '\t', header = T, row.names = 1)
+BitMatrix <- read.table("BitMatrixHeavy.tsv", sep = '\t', header = T, row.names = 1)
 clustermethods <- c("single", "average", "complete", "ward.D")
 
 #Definir normalizaciones
